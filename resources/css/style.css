@@ -1,0 +1,521 @@
+/* BANNER SECTION */
+.banner-section {
+	background: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.158)), url('images/banner.jpg')center/cover;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	background-attachment: fixed;
+}
+
+.banner-section h1 {
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 200;
+	letter-spacing: 1rem;
+	margin: 0.5rem;
+}
+
+.banner-section p {
+	color: #fff;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	font-size: 1.2rem;
+}
+
+.banner-section .title {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* HEADER SECTION */
+
+.header-section {
+	box-shadow: 7px 13px 13px #0000000d;
+}
+
+.navigation li {
+	padding-left: 1rem;
+}
+
+.navigation a {
+	text-transform: uppercase;
+	font-size: 0.78rem;
+	color: #1f1f1f !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+	display: inline-block;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-right: 0;
+	line-height: inherit;
+	white-space: nowrap;
+}
+
+.navbar {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+	color: #999 !important;
+}
+
+/* RESERVATION SECTION */
+.reservation {
+	padding-top: 7rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.reserve {
+	padding: 2rem 0;
+}
+
+.reserve h2 {
+	text-transform: uppercase;
+	color: #222;
+	margin-bottom: 2.2rem;
+}
+
+.reserve p {
+	font-size: 0.86rem;
+	color: #373636;
+	line-height: 2;
+}
+
+.reserve a {
+	color: #262626;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.84rem;
+	letter-spacing: 2px;
+	background: #d5d2d2;
+	padding: 1rem;
+	display: inline-block;
+}
+
+.reserve a:hover,
+.reserve a:active {
+	background-color: #2a2a2a;
+	color: rgb(230, 230, 230);
+}
+
+/* FEATURES */
+.features {
+	font-family: 'Montserrat', sans-serif;
+	padding: 6rem 0;
+}
+
+.feature {
+	padding: 0rem 2rem;
+}
+
+.feature ion-icon {
+	padding: 1.7rem;
+	font-size: 2.4rem;
+	border-radius: 50%;
+	background: #fff;
+	/* font-weight: 300; */
+	color: #4b4b4b;
+}
+
+.feature h3 {
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+	margin-bottom: 2rem;
+}
+
+.feature p {
+	font-size: 0.9rem;
+	color: #6a6a6a;
+}
+
+/* SERVICES */
+.services {
+	background: url('images/fast-food.jpg') right 30px no-repeat;
+	padding: 7.5rem 0;
+}
+
+.service h4 {
+	color: #d6b161;
+	font-size: 1.1rem;
+	font-weight: 400;
+	word-spacing: 3px;
+}
+
+.service p {
+	margin: 2.3rem 0;
+	font-size: 0.9rem;
+	line-height: 1.7;
+	color: #555;
+	/* font-weight: 300; */
+	letter-spacing: 0.5px;
+	word-spacing: 1px;
+}
+
+/* OPENING TIME */
+.time {
+	font-family: 'Montserrat', sans-serif;
+	background: url('images/17.jpg');
+	padding: 7.5rem 0;
+	background-attachment: fixed;
+}
+
+.section-title h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+	margin-bottom: 7rem;
+}
+
+.left-side {
+	/* color: #d6b161; */
+	padding-right: 1.5rem;
+}
+
+.day h5 {
+	color: #e1a219;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+.day p {
+	color: #fff;
+	/* text-transform: uppercase; */
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.timer ion-icon {
+	display: inline-block;
+	color: #8f8f8fde;
+	font-size: 5rem;
+}
+
+.right-side {
+	padding-left: 1.5rem;
+}
+
+/* BOOKINGS TABLE */
+.booking {
+	font-family: 'Montserrat', sans-serif;
+	padding: 6.5rem 0;
+}
+
+.post-desk h4 {
+	color: #e1a219;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.post-desk p {
+	padding: 2rem 0;
+	color: #555;
+	font-size: 0.9rem;
+	line-height: 1.7;
+}
+
+.post-desk form button {
+	width: 100%;
+	font-size: 0.73rem;
+	padding: 0.5rem;
+}
+
+.form-control {
+	padding: .3rem .75rem !important;
+	font-size: 0.8rem !important;
+}
+
+/* FOOTER SECTION */
+.primary-footer {
+	background: #2b2b2b;
+	padding: 4rem 0;
+}
+
+.logo {
+	margin-bottom: 1.5rem;
+}
+
+.primary-footer p {
+	color: #999;
+	font-weight: 300;
+	font-size: 0.9rem;
+	line-height: 2;
+}
+
+.items {
+	color: #fff;
+	text-transform: uppercase;
+	/* font-weight: 300; */
+	/* font-size: 0.9rem; */
+}
+
+.items h5 {
+	font-weight: 500;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+	margin: 1.5rem 0;
+}
+
+.footer-item {
+	list-style: none;
+	/* text-align: left; */
+	padding: 0 1.9rem 0 0;
+}
+
+.footer-item li {
+	padding: 0.4rem;
+	border-bottom: 1px solid #4b4b4b;
+}
+
+.footer-item li a {
+	color: #999;
+	text-transform: capitalize;
+	font-size: 0.87rem;
+	font-weight: 300;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.footer-item a:hover,
+.footer-item a:active {
+	color: #777;
+}
+
+.footer-item li a::before {
+	content: "\003e";
+	display: inline-block;
+	padding-right: 9px;
+	/* font-weight: 700; */
+	color: #bababa;
+}
+
+/* Secondary footer */
+.secondary-footer {
+	padding: 1.5rem 0;
+	background: #222;
+}
+
+.copyright {
+	color: #fff;
+	font-size: 0.9rem;
+	text-align: center;
+	/* margin-top: 12px; */
+}
+
+.copyright p {
+	margin-bottom: 0 !important;
+	color: #b8b7b7;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+.social a {
+	padding: 0 0.5rem;
+	font-size: 1rem;
+	text-decoration: none;
+	display: inline-block;
+	color: #b2b2b2;
+	/* background: #fff; */
+	/* border-radius: 50%; */
+}
+
+.social a ion-icon {
+	padding: 0.5rem;
+	/* background: #999; */
+	border-radius: 50%;
+	border: 1px solid #494949;
+}
+
+
+/****************************************
+media queries***media queries**media queries
+*****************************************/
+@media(max-width:575px) {
+	.chef-image {
+		display: none;
+	}
+
+	.feature {
+		margin-bottom: 2rem !important;
+	}
+
+	.services {
+		padding: 5rem 0 !important;
+	}
+
+	.day h5 {
+		font-size: 0.82rem;
+	}
+
+	.day p {
+		font-size: 1rem;
+	}
+
+	.section-title h2 {
+		font-size: 1.3rem;
+	}
+
+	.post-img {
+		display: none;
+	}
+
+	.booking {
+		background: linear-gradient(rgba(255, 166, 0, 0.322), rgba(255, 255, 0, 0.226)), url('images/food-glass.png') right no-repeat;
+	}
+
+	.post-desk h4 {
+		color: #634700;
+		font-weight: 600;
+	}
+
+	.post-desk p {
+		color: rgb(107, 107, 107);
+	}
+
+	.items h5 {
+		text-align: left !important;
+		padding-left: 2rem;
+	}
+
+	.footer-item {
+		padding: 0 2rem 0 2rem !important;
+	}
+
+	.banner-section h1 {
+		font-size: 2.5rem;
+	}
+
+	.banner-section p {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.feature {
+		padding: 0 0.6rem !important;
+	}
+
+	.feature ion-icon {
+		padding: 1.3rem;
+		font-size: 1.9rem;
+	}
+
+	.feature .mb-5 {
+		margin-bottom: 1rem !important
+	}
+
+	.feature h3 {
+		font-size: 0.8rem;
+		letter-spacing: 0px;
+		margin-bottom: 1rem;
+	}
+
+	.services {
+		text-align: center;
+	}
+
+	.day h5 {
+		font-size: 1rem;
+	}
+
+	.day p {
+		font-size: 1.3rem;
+	}
+
+	.section-title h2 {
+		margin-bottom: 4rem;
+	}
+
+	.left-side,
+	.right-side {
+		padding: 0;
+		margin: 2rem 0;
+	}
+
+	.post-desk h4 {
+		font-size: 0.9rem;
+	}
+
+	.post-img {
+		display: none;
+	}
+
+	.post-desk p {
+		font-size: 0.8rem;
+	}
+
+	.booking {
+		background: linear-gradient(rgba(255, 166, 0, 0.322), rgba(255, 255, 0, 0.226)), url('images/food-glass.png') right no-repeat;
+	}
+
+	.post-desk h4 {
+		color: #634700;
+		font-weight: 600;
+	}
+
+	.post-desk p {
+		color: rgb(31, 31, 31);
+	}
+
+	.footer-item {
+		padding: 0 1.4rem;
+	}
+
+	.social {
+		text-align: center;
+		margin-top: 1rem;
+	}
+}
+
+@media(max-width:991px) {
+	.reserve h2 {
+		font-size: 1.3rem;
+		margin-bottom: 1.3rem;
+	}
+
+	.reserve p {
+		font-size: 0.8rem;
+	}
+
+	.reserve a {
+		font-size: 0.7rem;
+		padding: 0.7rem 1rem;
+	}
+
+	.services {
+		background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.301)), url('images/fast-food.jpg') right 30px no-repeat;
+	}
+
+	.service h4 {
+		color: #ecbf49;
+	}
+
+	.service p {
+		color: rgb(236, 236, 236);
+	}
+
+}
+
+@media(max-width:1199px) {
+	.feature {
+		padding: 0 1.8rem;
+	}
+}

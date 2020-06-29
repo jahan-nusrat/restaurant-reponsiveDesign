@@ -1,0 +1,33 @@
+/* BANNER SECTION */
+.banner-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.041)), to(rgba(0, 0, 0, 0.158))), url('images/banner.jpg')center/cover;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.158)), url('images/banner.jpg')center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.158)), url('images/banner.jpg')center/cover;
+}
+
+.banner-section .title {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* HEADER SECTION */
+
+.header-section {
+    -webkit-box-shadow: 7px 13px 13px #0000000d;
+}
+
+.navbar {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+}
