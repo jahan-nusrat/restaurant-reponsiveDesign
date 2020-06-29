@@ -1,1 +1,1 @@
-# restaurant-reponsiveDesign
+# restaurant-reponsive-design
